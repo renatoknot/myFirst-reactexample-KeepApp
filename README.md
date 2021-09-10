@@ -19,7 +19,7 @@ Also it's nice to have an editor to work with the code like [VSCode](https://cod
 ```
 
 Clone this repository
-$ git clone <https://github.com/renatoknot/myFirst-reactexample-KeepApp.git>
+$ git clone https://github.com/renatoknot/myFirst-reactexample-KeepApp.git
 
 Access the project folder in the terminal/cmd
 $ cd myFirst-reactexample-KeepApp
