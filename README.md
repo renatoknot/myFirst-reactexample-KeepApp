@@ -1,6 +1,6 @@
 # Kepper
 
-A Google Keep-like page showing how to create React components, how exports/imports modules work, and props and state concepts.
+A Google Keep-like page showing how to create React components, how exports/imports modules work, props and state concepts, styling with Material UI.
 
 ## Installation
 
