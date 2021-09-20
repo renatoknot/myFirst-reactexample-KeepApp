@@ -2,6 +2,8 @@
 
 A Google Keep-like page showing how to create React components, how exports/imports modules work, props and state concepts, styling with Material UI.
 
+[Link to the Project](https://renato-googlekeep.netlify.app/)
+
 ## Installation
 
 Before starting, you will need to have the following tools installed on your machine:
