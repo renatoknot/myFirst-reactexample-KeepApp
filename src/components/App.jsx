@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 // Components
 import Header from "./Header";
@@ -7,7 +7,19 @@ import Note from "./Note";
 import Footer from "./Footer";
 
 export default function App() {
-  const [notes, setNotes] = useState([]);
+  const [notes, setNotes] = useState(() => {
+    const storageNotes = localStorage.getItem("@KeeperApp:notes");
+
+    if (storageNotes) {
+      return JSON.parse(storageNotes);
+    }
+
+    return [];
+  });
+
+  useEffect(() => {
+    localStorage.setItem("@KeeperApp:notes", JSON.stringify(notes));
+  }, [notes]);
 
   function addNote(note) {
     setNotes((prevNotes) => {
